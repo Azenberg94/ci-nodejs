@@ -1,0 +1,6 @@
+#!/bin/sh
+ 
+cd ~/ci-nodejs
+git pull
+npm install --production
+forever restartall
