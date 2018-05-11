@@ -2,5 +2,6 @@
  
 cd /home/app/ci-nodejs
 git pull
+npm config set unsafe-perm true
 npm install --production
 forever restartall
