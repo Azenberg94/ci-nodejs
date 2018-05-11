@@ -1,6 +1,6 @@
 #!/bin/sh
  
-cd ~/ci-nodejs
+cd /home/app/ci-nodejs
 git pull
 npm install --production
 forever restartall
